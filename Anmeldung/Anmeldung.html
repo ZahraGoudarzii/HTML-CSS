@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8"/>
+        <title>Anmeldung</title>
+        <link rel="stylesheet" href="Anmeldung.css">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <link rel="icon" href="../Asset/uni-fest-logo.jfif" style="width: 16px;height: 16px;"
+                type="image/icon type">
+    </head>
+
+    <body>
+
+    <nav id="navbar">
+        <ul class="navbar-items">
+            <li><a href="../Startseite/Startseite.html">Startseite</a></li>
+            <li><a href="../Anmeldung/Anmeldung.html">Anmeldung</a></li>
+            <li><a href="../Aktivitäten/Aktivitäten.html">Aktivitäten</a></li>
+            <li><a href="../Impressum/impressum.html">Impressum</a></li>
+        </ul>
+    </nav>
+
+    <!--dieser Banner Bereich besteht aus einem Hintergrungsbild, das in der CSS Datei erstellt wird, und des Anmeldungssegments-->
+    <div id="banner">
+        <picture>
+        </picture>
+        <div id="anmelde-section">
+            <h2>Meldet euch an und werdet Teil des Unifest 2024 der Universität Bamberg!</h2>
+            <form action="https://dummyjson.com/auth/login" method="post">
+                <section id="username">
+                <label for="Anmeldename">Anmeldename: </label>
+                <input id="Anmeldename" type="text" name="username" placeholder="BA-Nummer eingeben">  
+                </section>
+                <br>
+                <section id="password">
+                <label for="Passwort">Passwort: </label>
+                <input id="Passwort" type="password" name="password" placeholder="Passwort eingeben"> 
+                </section>
+                <br>
+                <section id="submit">
+                    <input type="submit" value="Abschicken">
+                </section>
+            </form>
+        </div>
+    </div>
+   
+    <!--Footer-->
+    <div>
+        <footer>
+            <ul>
+                <li><a href="../Anmeldung/Anmeldung.html">Anmeldung</a></li> 
+                <li><a href="../Impressum/impressum.html">Impressum</a></li>
+            </ul>
+        </footer>
+    </div>
+
+    </body>
+
+</html>
