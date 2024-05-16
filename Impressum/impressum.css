@@ -1,0 +1,160 @@
+/* Allgemeine Einstellungen */
+
+h1 {
+    font-size: xx-large;
+    font-weight: 700;
+    margin: 0;
+}
+
+h2 {
+    color: white;
+}
+
+p {
+    padding: 0;
+    margin: 0;
+    color: white;
+    font-size: small;
+}
+
+ul {
+    display: flex;
+    gap: 20px;
+    color: white;
+    list-style: none;
+    padding: 0 20px;
+}
+
+a:hover {
+    color: #336a97;
+    cursor: pointer;
+}
+
+li:hover {
+    color: #336a97;
+    cursor: pointer;
+}
+
+h3 {
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+/* style von body */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
+
+/* style von navbar */
+#navbar {
+    background-color: #1a588a;
+    box-shadow: inset 0 -40px 15px rgba(0, 0, 0, .1);
+    height: 45px;
+    display: flex;
+    align-items: center;
+    border-top-right-radius: 50px;
+    border-top-left-radius: 10px;
+}
+
+.navbar-items {
+    display: flex;
+    gap: 20px;
+}
+
+/* style von header */
+.title-container {
+    height: 120px;
+    background-color: #336a97;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+.title-box-1 {
+    width: 50%;
+    color: white;
+}
+
+.title-box-2 {
+    width: 50%;
+    color: white;
+}
+
+.mini-text {
+    margin: 0;
+    font-size: small;
+    font-style: italic;
+}
+
+.fest-logo {
+    border-radius: 20px;
+    width: 70px;
+    height: 70px;
+}
+
+.navbar-items {
+    display: flex;
+    gap: 20px;
+}
+
+nav {
+    background-color: #1a588a;
+    box-shadow: inset 0 -40px 15px rgba(0, 0, 0, .1);
+    height: 45px;
+    display: flex;
+    align-items: center;
+    /* padding: 0 25px; */
+}
+
+/* style von Inhalt */
+#content {
+    background-color: #1a588a;
+    padding: 0 20px;
+    margin-top: 20px;
+    /* height: 100%; */
+
+}
+
+#Disclaimer {
+    padding-bottom: 20px;
+}
+
+/* style von Footer */
+footer {
+    display: flex;
+    justify-content: center;
+    background-color: #FFD300;
+    height: 20%;
+}
+
+/* Responsiv-Design */
+@media screen and (min-width:360px) and (max-width: 600px) {
+    .navbar-items {
+        font-size: small;
+        gap: 10px;
+    }
+
+    .title-box-2 {
+        direction: rtl;
+        width: 30%;
+    }
+
+    .title-box-1 {
+        width: 70%;
+    }
+}
+
+@media screen and (min-width: 600px) {
+    #content {
+        height: 100%;
+    }
+}
